@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0 auto;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .container-header {
     width: 1930px;
     height: 840px;
@@ -12,15 +16,6 @@
     max-height: 100%;
     position: absolute;
     overflow: hidden;
-}
-.Plumbers{
-    width: 418px;
-    height:101px;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .logo-icon {
@@ -34,4 +29,18 @@
     justify-content: center;
     align-items: center;
    
+}
+h1{
+    color: #ffff ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 324px;
+    height: 81px;
+    top: 117px;
+    left: 842px;
+    position: absolute;
+    font-size: 42px;
+   
+    
 }
