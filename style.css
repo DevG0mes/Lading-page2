@@ -1,34 +1,44 @@
 *{
     padding: 0;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 body {
+    overflow: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
-.container-header {
-    width: 1930px;
+.header-section {
+    width: 100%;
     height: 840px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .background{
-    padding: 0;
-    max-width: 100%;
-    max-height: 100%;
     position: absolute;
-    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.header-logo{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 116px;
+    text-align: center;
 }
 
 .logo-icon {
     width: 87px;
     height: 80px;
-    text-align: center;
-    left: 743px;
-    position: absolute;
-    top: 116px;
+}
+.textlogo{
     display: flex;
-    justify-content: center;
-    align-items: center;
-   
+    flex-direction: column;
 }
 h1{
     color: #ffff ;
@@ -37,10 +47,29 @@ h1{
     align-items: center;
     width: 324px;
     height: 81px;
-    top: 117px;
-    left: 842px;
-    position: absolute;
     font-size: 42px;
    
     
+}
+
+h2{
+    color: #ffff;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 311px;
+    /* left: 795px */
+
+}
+p{
+    color: #ffff;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+
 }
