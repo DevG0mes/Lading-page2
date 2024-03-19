@@ -1,15 +1,15 @@
-*{
+*{  /*Zerar os padrões da pagina  */
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
 }
 body {
-    overflow: hidden;
+    overflow-x: hidden; /* utilizado para a pagina não rolar */
     font-family: 'Poppins', sans-serif;
 }
 
 .header-section {
-    width: 100%;
+    width: 100%; /*Largura de 100% da pagina*/
     height: 840px;
     position: relative;
     display: flex;
@@ -23,7 +23,7 @@ body {
     height: 100%;
     padding: 0;
 }
-.header-logo{
+.header-logo{ /*Div que segura o logo da pagina na section e o h1*/
     display: flex;
     position: absolute;
     justify-content: center;
@@ -32,14 +32,11 @@ body {
     text-align: center;
 }
 
-.logo-icon {
+.logo-icon { /*Dimensionando logo*/
     width: 87px;
     height: 80px;
 }
-.textlogo{
-    display: flex;
-    flex-direction: column;
-}
+
 h1{
     color: #ffff ;
     display: flex;
@@ -47,10 +44,7 @@ h1{
     align-items: center;
     width: 324px;
     height: 81px;
-    font-size: 42px;
-   
-    
-}
+    font-size: 42px;}
 
 h2{
     color: #ffff;
@@ -60,8 +54,6 @@ h2{
     align-items: center;
     position: absolute;
     top: 311px;
-    /* left: 795px */
-
 }
 p{
     color: #ffff;
@@ -71,5 +63,32 @@ p{
     align-items: center;
     position: absolute;
     text-align: center;
+}
+.container-icons{
+    width: 566px;
+    height: 136px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+   
+}
+.group-1{
+    width: 110px;
+    height: 110px;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
 
+.medium-section{
+    width: 100%;
+
+}
+.container-back{
+    width: 912px;
+    height: 763px;
+    background-color: #50B2EA;
+    float: right;
 }
