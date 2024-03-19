@@ -36,7 +36,6 @@ body {
     width: 87px;
     height: 80px;
 }
-
 h1{
     color: #ffff ;
     display: flex;
@@ -44,9 +43,14 @@ h1{
     align-items: center;
     width: 324px;
     height: 81px;
-    font-size: 42px;}
+    font-size: 42px;
+}
 
-h2{
+.artigo-section-1{
+    width: 538px;
+    height: 208px;
+}
+.artigo-section-1 h2{
     color: #ffff;
     font-size: 32px;
     display: flex;
@@ -54,8 +58,10 @@ h2{
     align-items: center;
     position: absolute;
     top: 311px;
+    left: 41%;
+
 }
-p{
+.artigo-section-1 p{
     color: #ffff;
     width: 520px;
     display: flex;
@@ -63,6 +69,10 @@ p{
     align-items: center;
     position: absolute;
     text-align: center;
+    top: 392px;
+    left: 36%;
+
+
 }
 .container-icons{
     width: 566px;
@@ -71,16 +81,64 @@ p{
     left: 50%;
     top: 70%;
     transform: translate(-50%, -50%);
-   
+    display: flex;
+    flex-wrap: nowrap; /*itens alinhados */
 }
-.group-1{
+.group-1 img{
+    width: 110px;
+    height: 110px;
+    display: block;
+    gap: 50px;
+    margin: 0 auto;
+}
+.group-1 p {
+   margin-top: 10px;
+   color: #ffff;
+   font-weight: bold;
+}
+.group-2 img{
     width: 110px;
     height: 110px;
     display:flex ;
-    flex-direction: row;
-    justify-content: center;
     gap: 50px;
 }
+.group-2 p {
+    margin-top: 10px;
+    color: #ffff;
+    font-weight: bold;
+ }
+.group-3 img{
+    width: 110px;
+    height: 110px;
+    display:flex ;
+    gap: 50px;
+}
+.group-3 p {
+    margin-top: 10px;
+    color: #ffff;
+    font-weight: bold;
+ }
+.ajude-me{
+    width: 192px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 85%;
+}
+.button{
+    width: 192px;
+    height: 62px;
+    position: absolute;
+    background-color: #50B2EA;
+    border: none;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 10px ;
+    cursor: pointer;
+ }
 
 .medium-section{
     width: 100%;
